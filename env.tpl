@@ -1,4 +1,4 @@
-URL='https://v2.hirefrank.com'
+URL='https://workingtitles.xyz'
 MYSQL_HOST="op://production/ghostdb/server"
 MYSQL_DATABASE="op://production/ghostdb/database"
 MYSQL_USER="op://production/ghostdb/username"
