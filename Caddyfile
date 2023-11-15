@@ -9,12 +9,12 @@
 
 
 localhost,
-workingtitles.xyz {
+www.workingtitles.xyz {
     reverse_proxy ghost:2368 {
         lb_try_duration 30s
     }
 }
 
-www.workingtitles.xyz {
-    redir https://workingtitles.xyz{uri}
+workingtitles.xyz {
+    redir https://www.workingtitles.xyz{uri}
 }
